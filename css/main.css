@@ -1,0 +1,143 @@
+*,
+*:before,
+*:after {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+main {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type:none; 
+}
+
+nav ul li {
+    display:inline-block;
+    position: relative;
+    align-items: center;  
+    padding: 10px 20px;
+    margin: 10px;
+    justify-content: space-evenly;
+    background-color: #000000;
+    left: 250px;
+}
+
+a {
+    text-decoration:none;
+}
+a:link, a:visited {
+    color: rgb(255, 255, 255);
+}
+
+a:hover,a:active{
+    color: rgb(246, 255, 0);
+}
+
+nav {
+    left: 250px;
+    background-color: #000000;
+}
+
+p {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.logo img {
+    width: 200px; 
+    height: auto; 
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: 999;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+
+body {
+    background-image: url("../img/clothes.pdf");
+    background-size: cover;
+    background-position: center middle bottom;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(144, 142, 140);
+}
+
+.flexGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .flexGallery div {            
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  .footer {
+    font-family: karma, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    list-style-type: none;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(158, 158, 158);
+    padding: 10px 0;
+    z-index: 2;
+}
+
+
+.navigation a {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: 2s;
+}
+
+.navigation a:hover {
+    box-shadow: 10px 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    font-size: 28px;
+}
+
+/* ------------specific styles------------ */
+
+
+.para {
+    margin: 100px;
+    max-width: 400px;
+    justify-content: center;
+}
+
+.background {
+    background-color: rgb(248, 225, 192);
+}
+
+.color {
+    background-color: #d1c4c4;
+}
